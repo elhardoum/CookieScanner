@@ -129,7 +129,7 @@ func (t *Task) Cleanup() {
 	if t.userDir != "" {
 		_ = os.RemoveAll(t.userDir)
 	}
-	if t.remote != nil {
+	if false && t.remote != nil {
 		t.remote.CloseBrowser()
 		_ = t.remote.Close()
 	}

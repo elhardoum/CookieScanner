@@ -17,9 +17,9 @@
 package version
 
 import (
-	"github.com/CovenantSQL/CookieScanner/cmd"
-	"github.com/CovenantSQL/CookieScanner/parser"
-	"github.com/CovenantSQL/CookieScanner/utils"
+	"github.com/elhardoum/CookieScanner/cmd"
+	"github.com/elhardoum/CookieScanner/parser"
+	"github.com/elhardoum/CookieScanner/utils"
 	"github.com/gobs/pretty"
 	"github.com/pkg/errors"
 	kingpin "gopkg.in/alecthomas/kingpin.v2"
